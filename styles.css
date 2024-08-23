@@ -114,7 +114,7 @@ a.link-hover:hover {
     color: #0D121C;
     font-weight: lighter;
     text-decoration: none;
-    font-size: 1.1em;
+    font-size: 1em;
     transition: color 0.2s ease-out, border-color 0.4s ease-out;
 }
 
@@ -133,15 +133,15 @@ a.link-hover:hover {
     }
 
     .header__title {
-        font-size: 3.5em;
-    }
-
-    .header__description {
         font-size: 3em;
     }
 
-    .footer {
+    .header__description {
         font-size: 2em;
+    }
+
+    .footer {
+        font-size: 1.5em;
     }
 
     .list {
