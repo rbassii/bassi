@@ -1,0 +1,135 @@
+/*
+   Copyright 2014 GitHub Inc.
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
+*/
+
+/* Comment */
+.pl-c {
+  color: #969896;
+}
+
+/* Constant, markup.raw, meta.diff.header, meta.module-reference, meta.property-name, support, support.constant, support.variable, variable.other.constant */
+.pl-c1,
+.pl-s .pl-v {
+  color: #0086b3;
+}
+
+/* Entity */
+.pl-e,
+.pl-en {
+  color: #795da3;
+}
+
+/* String source */
+.pl-s .pl-s1,
+.pl-smi {
+  color: #333;
+}
+
+/* Entity name tag */
+.pl-ent {
+  color: #63a35c;
+}
+
+/* Keyword, storage, storage.type */
+.pl-k {
+  color: #a71d5d;
+}
+
+/* Punctuation definition string, string regexp character class */
+.pl-pds,
+.pl-s {
+  color: #183691;
+}
+
+/* Variable */
+.pl-v {
+  color: #ed6a43;
+}
+
+/* Invalid deprecated */
+.pl-id {
+  color: #b52a1d;
+}
+
+/* Invalid illegal */
+.pl-ii {
+  background-color: #b52a1d;
+  color: #f8f8f8;
+}
+
+/* String regexp constant character escape */
+.pl-sr .pl-cce {
+  color: #63a35c;
+  font-weight: bold;
+}
+
+/* Markup list */
+.pl-ml {
+  color: #693a17;
+}
+
+/* Markup heading */
+.pl-mh,
+.pl-mh .pl-en {
+  color: #1d3e81;
+  font-weight: bold;
+}
+
+/* Meta separator */
+.pl-ms {
+  color: #1d3e81;
+  font-weight: bold;
+}
+
+/* Markup quote */
+.pl-mq {
+  color: #008080;
+}
+
+/* Markup italic */
+.pl-mi {
+  color: #333;
+  font-style: italic;
+}
+
+/* Markup bold */
+.pl-mb {
+  color: #333;
+  font-weight: bold;
+}
+
+/* Markup deleted, meta diff header from-file */
+.pl-md {
+  background-color: #ffecec;
+  color: #bd2c00;
+}
+
+/* Markup inserted, meta diff header to-file */
+.pl-mi1 {
+  background-color: #eaffea;
+  color: #55a532;
+}
+
+/* Meta diff range */
+.pl-mdr {
+  color: #795da3;
+  font-weight: bold;
+}
+
+/* Meta output */
+.pl-mo {
+  color: #1d3e81;
+}
