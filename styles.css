@@ -19,10 +19,10 @@ body {
     margin: 0;
     display: flex;
 }
-.figtree-<uniquifier> {
-  font-family: "Figtree", sans-serif;
+.bitter-<uniquifier> {
+  font-family: "Bitter", serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: <weight>;
   font-style: normal;
 }
 
