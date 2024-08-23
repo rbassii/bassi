@@ -133,15 +133,15 @@ a.link-hover:hover {
     }
 
     .header__title {
-        font-size: 1.5em;
+        font-size: 3.5em;
     }
 
     .header__description {
-        font-size: 1em;
+        font-size: 2em;
     }
 
     .footer {
-        font-size: 14px;
+        font-size: 1em;
     }
 
     .list {
