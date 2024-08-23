@@ -53,7 +53,7 @@ body {
 .circle:before,
 .content {
     position: relative;
-    width: 100%;
+    width: 70%;
     height: auto;
 }
 
