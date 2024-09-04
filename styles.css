@@ -63,11 +63,11 @@ body {
 }
 
 .fade-in.header {
-    animation-delay: 0.3s;
+    animation-delay: 0.9s;
 }
 
 .fade-in.footer {
-    animation-delay: 0.6s;
+    animation-delay: 0.12s;
 }
 
 .header__title {
