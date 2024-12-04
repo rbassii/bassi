@@ -18,22 +18,29 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
   // Lógica do Dark Mode
-  const toggleButton = document.getElementById('dark-mode-toggle');
+  const toggleContainer = document.getElementById('dark-mode-toggle');
+  const sunIcon = document.getElementById('sun-icon');
+  const moonIcon = document.getElementById('moon-icon');
 
-  // Checa se o Dark Mode foi ativado previamente no localStorage
+  // Aplica tema escuro se salvo no localStorage
   if (localStorage.getItem('dark-mode') === 'enabled') {
     document.body.classList.add('dark-mode');
+    sunIcon.style.display = 'none';
+    moonIcon.style.display = 'inline-block';
   }
 
-  // Alterna o Dark Mode ao clicar no botão
-  toggleButton.addEventListener('click', () => {
+  // Alterna entre sol e lua
+  toggleContainer.addEventListener('click', () => {
     document.body.classList.toggle('dark-mode');
 
-    // Salva a preferência no localStorage
     if (document.body.classList.contains('dark-mode')) {
       localStorage.setItem('dark-mode', 'enabled');
+      sunIcon.style.display = 'none';
+      moonIcon.style.display = 'inline-block';
     } else {
       localStorage.setItem('dark-mode', 'disabled');
+      sunIcon.style.display = 'inline-block';
+      moonIcon.style.display = 'none';
     }
   });
 });
