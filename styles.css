@@ -165,27 +165,3 @@ a.link-hover:hover {
         color: #00C86F;
     }
 }
-/* Dark Mode */
-body.dark-mode {
-    background-color: #121212; /* Fundo escuro */
-    color: #f1f1f1; /* Texto claro */
-    transition: background-color 0.3s, color 0.3s; /* Transição suave */
-}
-
-/* Posicionamento no canto superior direito */
-#dark-mode-toggle {
-    position: absolute;
-    top: 20px; /* Ajuste a distância do topo */
-    right: 20px; /* Ajuste a distância da direita */
-    cursor: pointer;
-    font-size: 1.5em;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-/* Ícones */
-.icon {
-    transition: opacity 0.3s ease;
-    display: inline-block;
-}
