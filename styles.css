@@ -172,39 +172,15 @@ body.dark-mode {
     transition: background-color 0.3s, color 0.3s; /* Transição suave */
 }
 
-/* Links no Dark Mode */
-body.dark-mode a {
-    color: #bb86fc; /* Cor dos links */
-}
-
-body.dark-mode a.link-hover:hover {
-    color: #03dac6; /* Cor dos links ao passar o mouse */
-}
-
-/* Estilos específicos para o Dark Mode */
-body.dark-mode .header__title {
-    color: #ffffff; /* Cor do título no Dark Mode */
-}
-
-body.dark-mode .header__description {
-    color: #cccccc; /* Cor das descrições no Dark Mode */
-}
-
-body.dark-mode .list__item>a {
-    color: #e0e0e0; /* Cor dos links na lista no Dark Mode */
-}
-
-body.dark-mode .list__item>a:hover {
-    color: #81c784; /* Cor dos links da lista ao passar o mouse */
-}
-
-/* Container dos ícones */
+/* Posicionamento no canto superior direito */
 #dark-mode-toggle {
+    position: absolute;
+    top: 20px; /* Ajuste a distância do topo */
+    right: 20px; /* Ajuste a distância da direita */
     cursor: pointer;
     font-size: 1.5em;
     display: flex;
     align-items: center;
-    margin-top: 10px;
     gap: 10px;
 }
 
