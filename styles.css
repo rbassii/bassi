@@ -165,3 +165,53 @@ a.link-hover:hover {
         color: #00C86F;
     }
 }
+/* Dark Mode */
+body.dark-mode {
+    background-color: #121212; /* Fundo escuro */
+    color: #f1f1f1; /* Texto claro */
+    transition: background-color 0.3s, color 0.3s; /* Transição suave */
+}
+
+/* Links no Dark Mode */
+body.dark-mode a {
+    color: #bb86fc; /* Cor dos links */
+}
+
+body.dark-mode a.link-hover:hover {
+    color: #03dac6; /* Cor dos links ao passar o mouse */
+}
+
+/* Estilos específicos para o Dark Mode */
+body.dark-mode .header__title {
+    color: #ffffff; /* Cor do título no Dark Mode */
+}
+
+body.dark-mode .header__description {
+    color: #cccccc; /* Cor das descrições no Dark Mode */
+}
+
+body.dark-mode .list__item>a {
+    color: #e0e0e0; /* Cor dos links na lista no Dark Mode */
+}
+
+body.dark-mode .list__item>a:hover {
+    color: #81c784; /* Cor dos links da lista ao passar o mouse */
+}
+
+/* Botão de alternância (Dark Mode Toggle) */
+#dark-mode-toggle {
+    margin-top: 20px;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF; /* Fundo do botão */
+    color: white; /* Cor do texto */
+    transition: background-color 0.3s;
+}
+
+#dark-mode-toggle:hover {
+    background-color: #0056b3; /* Cor ao passar o mouse no botão */
+}
+
