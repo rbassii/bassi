@@ -20,7 +20,6 @@ body {
     display: flex;
 }
 
-// <uniquifier>: Use a unique and descriptive class name
 .bitter-<uniquifier> {
   font-family: "Bitter", serif;
   font-optical-sizing: auto;
