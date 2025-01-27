@@ -19,24 +19,11 @@ body {
     margin: 0;
     display: flex;
 }
-.lato-thin {
-  font-family: "Lato", serif;
-  font-weight: 100;
-  font-style: normal;
-}
 
-.lato-light {
+.bitter-<uniquifier> {
   font-family: "Lato", serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.lato-bold {
-  font-family: "Lato", serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
+  font-optical-sizing: auto;
+    
 
 .wrapper {
     height: 100%;
