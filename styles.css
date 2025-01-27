@@ -20,8 +20,9 @@ body {
     display: flex;
 }
 
+// <uniquifier>: Use a unique and descriptive class name
 .bitter-<uniquifier> {
-  font-family: "Lato", serif;
+  font-family: "Bitter", serif;
   font-optical-sizing: auto;
     
 
@@ -71,14 +72,14 @@ body {
 .header__title {
     font-size: 3em;
     color: #111;
-    font-weight: 700;
+   
 }
 
 .header__description {
     font-size: 1.8em;
     line-height: 1.2em;
     color: #111;
-    font-weight: 300;
+
 }
 
 a.link-hover {
