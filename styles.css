@@ -85,12 +85,12 @@ body {
 }
 
 a.link-hover {
-    color: #0D121C;
+    color: #111;
     text-decoration: none;
 }
 
 a.link-hover:hover {
-    color: #111;
+    color: #F0002C;
 }
 
 /* List (generic) */
@@ -131,7 +131,7 @@ a.link-hover:hover {
 .list__item:nth-child(2)>a:hover,
 .list__item:nth-child(3)>a:hover,
 .list__item:nth-child(4)>a:hover {
-    color: #00C86F;
+    color: #F0002C;
 }
 
 /* Adapters */
