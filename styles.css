@@ -46,7 +46,7 @@ body {
 .circle:before {
     content: '\25CF';
     font-size: 8.5em;
-    color: #639940;
+    color: #F0002C;
 }
 
 .header,
@@ -90,7 +90,7 @@ a.link-hover {
 }
 
 a.link-hover:hover {
-    color: #00C86F;
+    color: #F0002C;
 }
 
 /* List (generic) */
