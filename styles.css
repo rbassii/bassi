@@ -85,12 +85,12 @@ body {
 }
 
 a.link-hover {
-    color: #F0002C;
+    color: #0D121C;
     text-decoration: none;
 }
 
 a.link-hover:hover {
-    color: #F0002C;
+    color: #111;
 }
 
 /* List (generic) */
