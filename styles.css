@@ -120,7 +120,7 @@ a.link-hover:hover {
     position: relative;
     text-overflow: ellipsis;
     white-space: nowrap;
-    color: #0D121C;
+    color:#111;
     font-weight: lighter;
     text-decoration: none;
     font-size: 1em;
