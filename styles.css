@@ -78,18 +78,17 @@ body {
 }
 
 a.link-hover {
-	color: #77158E;
+	color: #111;
 	text-decoration: none;
 	transition: color 0.2s ease-out;
 }
 
 a.link-hover:hover,
 a.link-hover:focus {
-	color: #F0002C;
+	color: #77158E;
 	text-decoration: underline;
 	outline: none;
 }
-
 a:focus {
 	outline: 2px dashed #F0002C;
 	outline-offset: 4px;
