@@ -19,10 +19,10 @@ html {
 
 body {
 	width: 100%;
-	height: 100%;
 	margin: 0;
-	overflow: scroll;
-	display: flex;
+	padding: 0;
+	overflow-x: hidden;
+	overflow-y: auto;
 	font-family: 'Bitter', serif;
 	background-color: #fff;
 	color: #111;
