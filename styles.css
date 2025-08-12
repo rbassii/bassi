@@ -111,7 +111,7 @@ a:focus {
 }
 
 .list__item {
-	font-family: 'Bitter', serif;
+	font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
 }
 
 .list__item > a {
