@@ -23,7 +23,7 @@ body {
 	padding: 0;
 	overflow-x: hidden;
 	overflow-y: auto;
-	font-family: 'Bitter', serif;
+	font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
 	background-color: #fff;
 	color: #111;
 }
