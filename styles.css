@@ -176,12 +176,16 @@ a.link-hover:focus-visible {
   margin: 0 auto;
   min-height: 100vh;
   min-height: 100svh;
+  /* Mobile-first: photo above, then text */
+  grid-template-areas:
+    "right"
+    "left";
   align-items: center;
   justify-items: center;
 }
 
-.hero__left { max-width: 720px; }
-.hero__right { width: auto; max-width: 320px; justify-self: center; display: grid; place-items: center; }
+.hero__left { max-width: 720px; grid-area: left; }
+.hero__right { width: auto; max-width: 320px; justify-self: center; display: grid; place-items: center; grid-area: right; }
 
 .profile-photo {
   width: 100%;
@@ -198,11 +202,17 @@ a.link-hover:focus-visible {
 
 @media (min-width: 1024px) {
   /* Smaller photo on desktop */
-  .hero { grid-template-columns: 1fr 320px; align-items: center; justify-items: center; }
+  .hero { grid-template-columns: 1fr 320px; align-items: center; justify-items: center; grid-template-areas: "left right"; }
   .hero__right { justify-self: center; max-width: 320px; display: grid; place-items: center; }
   .profile-photo {
     width: 320px;
     height: auto;
     aspect-ratio: 3 / 4;
   }
+}
+
+/* Tuning for small screens: smaller image above the title and spacing */
+@media (max-width: 599px) {
+  .hero__right { max-width: 200px; margin-bottom: 8px; }
+  .profile-photo { width: 100%; }
 }
