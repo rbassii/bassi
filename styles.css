@@ -213,6 +213,10 @@ a.link-hover:focus-visible {
 
 /* Tuning for small screens: smaller image above the title and spacing */
 @media (max-width: 599px) {
-  .hero__right { max-width: 200px; margin-bottom: 8px; }
+  /* Spacing between photo and text */
+  .hero { gap: 32px; row-gap: 32px; }
+  .hero__right { max-width: 200px; margin-bottom: 0; }
   .profile-photo { width: 100%; }
+  .header__title, .header__description { margin: 0; }
+  .header .social { margin-top: 8px; }
 }
