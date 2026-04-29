@@ -90,11 +90,6 @@ a.link-hover:focus-visible {
 	flex-direction: column;
 }
 
-@media (min-width: 600px) {
-	.list {
-		flex-direction: row;
-	}
-}
 
 .list__item {
 	font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
@@ -212,6 +207,12 @@ a.link-hover:focus-visible {
 }
 
 /* Tuning for small screens: smaller image above the title and spacing */
+@media (min-width: 600px) {
+	.list {
+		flex-direction: row;
+	}
+}
+
 @media (max-width: 599px) {
   /* Spacing between photo and text */
   .hero { gap: 32px; row-gap: 32px; }
